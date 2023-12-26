@@ -61,6 +61,5 @@ services:
         restart: always
         volumes:
             - ./world:/app/server/World
-            - ./server.properties:/app/server/
         
 ```
