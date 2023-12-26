@@ -54,7 +54,7 @@ version: '3'
 services:
     gtnh:
         build:
-            context: .
+            context: https://github.com/debuas/gtnh-docker-server#main
             args:
                 VERSION: 2.5.1 
         ports: 
